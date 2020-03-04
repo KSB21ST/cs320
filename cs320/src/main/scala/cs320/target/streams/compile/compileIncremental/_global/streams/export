@@ -1,0 +1,1 @@
+scalac -bootclasspath C:\Users\김수빈\.sbt\boot\scala-2.12.10\lib\scala-library.jar -classpath C:\cs320\cs320\src\main\scala\cs320\target\scala-2.12\classes C:\cs320\cs320\src\main\scala\cs320\Homework.scala C:\cs320\cs320\src\main\scala\cs320\Main.scala

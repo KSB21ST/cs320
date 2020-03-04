@@ -1,0 +1,5 @@
+C:\Program Files (x86)\sbt\bin
+test(2,2)
+cd C:\Program Files (x86)\sbt\bin
+q
+sbt console

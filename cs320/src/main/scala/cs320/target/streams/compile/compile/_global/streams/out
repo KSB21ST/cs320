@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mC:\cs320\cs320\src\main\scala\cs320\Main.scala:4:22: object runtime is not a member of package reflect[0m
+[0m[[0m[31merror[0m] [0m[0mimport scala.reflect.runtime.{ universe => ru }[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\cs320\cs320\src\main\scala\cs320\Main.scala:18:25: not found: value ru[0m
+[0m[[0m[31merror[0m] [0m[0m    val runtimeMirror = ru.runtimeMirror(getClass.getClassLoader)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
