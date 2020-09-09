@@ -8,7 +8,7 @@ object Main {
     case name :: Nil => runTests(name) match {
       case Some(_) =>
       case None =>
-        redMsg(RED + s"Not defined homework: $name" + RESET)
+        redMsg(RED + s"Not defined: $name" + RESET)
         help
     }
     case _ => help
@@ -27,7 +27,8 @@ object Main {
   def help: Unit = {
     redMsg(s"Please use the following format:")
     redMsg()
-    redMsg(s"  sbt run hwXX")
+    redMsg(s"  sbt run exXX")
+    redMsg(s"  sbt run projXX")
   }
 
   def redMsg(msg: String = ""): Unit = {
